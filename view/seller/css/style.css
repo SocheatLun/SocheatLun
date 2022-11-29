@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 10px;
+}
+
+/* Menu bar element */
+.header {
+    display: flex;
+    background-color: #F6B302;
+}
+
+.profile-img {
+    width: 150px;
+    height: 60px;
+}
+
+
+.nav-left {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    flex: 0.5;
+    gap: 20px;
+}
+
+.pages {
+    display: flex;
+    flex: 0.30;
+    gap: 20px;
+
+}
+
+.home,
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-color: #fff;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0.5;
+
+}
+
+button {
+    border: none;
+    margin-right: 15px;
+    background-color: #fff;
+
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button a {
+    color: #000;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* product item */
+.product {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+.list-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* align-items: center; */
+
+}
+
+.list-product-botton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.list-product-botton button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6B302;
+    width: 10%;
+}
+
+/* dialog elements */
+
+#dialog-cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 10;
+}
+
+dialog {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 60%;
+    width: 60%;
+    z-index: 100;
+}
+
+#dialog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.dialog-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+#add {
+    width: 20%;
+    background-color: #F6B302;
+    color: #fff;
+}
+
+#cancel {
+    width: 20%;
+    background-color: red;
+    color: #fff;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.container-header input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+}
+/* footer elements */
+.footer-botton-left {
+    display: flex;
+    align-items: center;
+}
+
+.centect {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-botton {
+    display: flex;
+    flex-direction: column;
+}
