@@ -1,35 +1,44 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
-.profile-img{
+
+.profile-img {
     width: 150px;
     height: 60px;
 }
+
 nav {
     display: flex;
-    background-color:#DEEB31;
+    background-color: #F6B302;
 }
+
 .nav-left {
+    display: flex;
+    margin-left: 15px;
     margin-top: 10px;
     flex: 0.5;
-    display: flex;
     gap: 20px;
 }
-.pages{
-    flex: 0.30;
+
+.pages {
     display: flex;
+    flex: 0.30;
     gap: 20px;
 
 }
-.home, .shop{
+
+.home,
+.shop {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
     background-color: #fff;
     width: 80px;
     height: 40px;
@@ -37,47 +46,63 @@ nav {
 }
 
 .nav-right {
-    flex: 0.5;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    flex: 0.5;
+   
 }
-button{
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/680/615/large_2x/portrait-of-confused-asian-man-looking-sideways-on-yellow-background-free-photo.jpg);
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+}
+.container h1, .container p {
+    margin-left: 15px;
+}
+
+button {
     border: none;
     margin-right: 15px;
     background-color: #fff;
+
     width: 80px;
     height: 40px;
     border-radius: 5px;
 }
+
 button a {
     color: #000;
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
 
-.footer-low-left {
+.footer-botton-left {
     display: flex;
     align-items: center;
-  }
-  
-  .footer-low {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .centect {
+}
+
+.centect {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
-  }
-.container{
-    background-color: chocolate;
-    background-image: url(https://st.depositphotos.com/47153598/57796/i/450/depositphotos_577969036-stock-photo-man-face-portrait-banner-copy.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
+}
+
+.box {
     display: flex;
-  }
+    flex-direction: column;
+}
+
+.box-botton {
+    display: flex;
+    flex-direction: column;
+}
