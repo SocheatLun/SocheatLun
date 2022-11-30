@@ -81,7 +81,11 @@ a {
     flex: 1;
     gap: 15px;
 }
-
+.table img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
 .list-product {
     display: flex;
     flex-direction: column;
