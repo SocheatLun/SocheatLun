@@ -92,8 +92,7 @@ a {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /* align-items: center; */
-
+    
 }
 
 .list-product-botton {
@@ -134,7 +133,7 @@ dialog {
     margin-top: 20px;
     overflow: hidden;
     border-radius: 5px;
-    height: 60%;
+    height: 80%;
     width: 60%;
     z-index: 100;
 }
@@ -186,6 +185,17 @@ table{
     border-collapse: collapse;
     width: 90%;
     text-align: center;
+    margin-bottom: 20px;
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+.actions img {
+    height: 43px;
+    width: 40px;
 }
 /* footer elements */
 .footer-botton-left {

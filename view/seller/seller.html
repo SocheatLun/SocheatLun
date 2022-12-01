@@ -18,11 +18,11 @@
             </div>
             <div class="pages">
                 <a class="home" href="../../index.html">Home</a>
-                <a class="shop" href="view/shop/shop.html">Shop</a>
+                <a class="shop" href="../shop/shop.html">Shop</a>
             </div>
         </div>
         <div class="nav-right">
-            <button><a href="view/seller/seller.html">Customer</a></button>
+            <button><a href="../shop/shop.html">Customer</a></button>
         </div>
     </nav>
     <div id="dialog-cover" style="display: none">
@@ -37,7 +37,7 @@
                 </div>
                 <div class="dialog-footer">
                     <button id="cancel" onclick="onCancel()">Cancel</button>
-                    <button id="add">Add product</button>
+                    <button id="add" onclick="onCreate()">Add product</button>
                 </div>
             </div>
         </dialog>
@@ -52,8 +52,8 @@
                         <th>Price</th>
                         <th>Description</th>
                         <th>Image</th>
-                        <th>Edit</th>
-                        <th>Delete</th>
+                        <th>Action</th>
+        
                     </tr>
                 </thead>
                 <tbody id="product-container">
