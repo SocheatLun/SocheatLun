@@ -8,29 +8,164 @@ const add = document.querySelector("#add");
 
 let products = [
     {
-        name: "T-shirt",
-        price: 50,
+        name: "Casio F91W-1",
+        price: 14,
         currency: "$",
-        description: "Good for boy",
-        image: "../../../img/T-Shirt.png",
+        description: "Tending",
+        image: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623286881-best-small-watches-40mm-casio-f91w-1-1623286862.jpg?crop=1xw:1xh;center,top&resize=768%3A%2A",
         edit: "../../../img/edit.png",
         delete: "../../../img/delete.png",
     },
     {
-        name: "Nike Shoes",
-        price: 500,
-        currency: "$",
-        description: "best shoes ever",
-        image: "../../../img/Nike Shoes.png",
-        edit: "../../../img/edit.png",
-        delete: "../../../img/delete.png",
-    },
-    {
-        name: "Watch",
-        price: 150,
+        name: "Bertucci A-1R Fiel",
+        price: 54,
         currency: "$",
         description: "Hight level Watch",
-        image: "../../../img/Watch.png",
+        image: "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623286935-best-small-watches-40mm-bertucci-10500-a-1r-1623286922.jpg?crop=1xw:1xh;center,top&resize=768%3A%2A",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "The Dial Watch",
+        price: 45,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://magazine.chrono24.com/cdn-cgi/image/f=auto,metadata=none,q=65,w=720/2018/02/2-Rolex-Datejust-with-Jubilee-bracelet.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Seiko 5 Sports watch",
+        price: 255,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc40a25ea3c548d988cfb/master/w_960,c_limit/Seiko-5-Sports-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Cartier Santos watch",
+        price: 11300,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc41425ea3c548d988d05/master/w_960,c_limit/Cartier-Santos-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Unimatic UC3 watch",
+        price: 700,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc40625ea3c548d988cf7/master/w_960,c_limit/Unimatic-UC3-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Blancpain Villeret watch",
+        price: 200,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc415fc3cabc7998e02e4/master/w_960,c_limit/Blancpain-Villeret-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Doxa Sub 600T watch",
+        price: 150,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc41225ea3c548d988d03/master/w_960,c_limit/Doxa-Sub-600T-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Doxa Sub 200 Sharkhunter",
+        price: 50,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/612936f11e58f2cb8c895ac2/master/w_960,c_limit/Doxa-Sub-200-Sharkhunter-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Longines Heritage Classic",
+        price: 350,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc40de8a4c0d7eab73ff8/master/w_960,c_limit/Longines-Heritage-Classic-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Hamilton PSR",
+        price: 10,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc4118968f73dc1dff662/master/w_960,c_limit/Hamilton-PSR.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "TAG Heuer Autavia ",
+        price: 15,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/635023aefe1e75ed8f7b8097/master/w_960,c_limit/tag.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Tudor Pelagos FXD",
+        price: 20,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc407beba6f3c93090248/master/w_960,c_limit/Tudor-Pelagos-FXD-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Enicar CH326 watch",
+        price: 5,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://media.gq.com/photos/623bc41225ea3c548d988d01/master/w_960,c_limit/Enicar-CH326-watch.jpg",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Nordgreen",
+        price: 25,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://cdn.luxe.digital/media/20221108112707/luxury-watch-brand-nordgreen-review-luxe-digital-780x520.jpg.webp",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Piaget",
+        price: 35,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://cdn.luxe.digital/media/2020/05/21140833/best-luxury-watch-brands-piaget-luxe-digital.jpg.webp",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Ulysse Nardin",
+        price: 45,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://cdn.luxe.digital/media/2020/05/21140910/best-luxury-watch-brands-ulysse-nardin-luxe-digital.jpg.webp",
+        edit: "../../../img/edit.png",
+        delete: "../../../img/delete.png",
+    },
+    {
+        name: "Hublot",
+        price: 45000,
+        currency: "$",
+        description: "Good qurity",
+        image: "https://cdn.luxe.digital/media/2020/05/21140728/best-luxury-watch-brands-hublot-luxe-digital.jpg.webp",
         edit: "../../../img/edit.png",
         delete: "../../../img/delete.png",
     },
@@ -188,12 +323,21 @@ function onCreate() {
     newProduct.description = document.getElementById("description").value;
     newProduct.currency = document.getElementById("currency").value;
     newProduct.image = document.getElementById("image").value;
+    
     products.push(newProduct);
     
     // Save to local storage
     saveProduct();
     // Update the view
     renderProduct();
+    document.getElementById("name").value = ""
+    document.getElementById("price").value = ""
+    document.getElementById("description").value = ""
+    document.getElementById("currency").value = ""
+    document.getElementById("image").value = ""
+
 }
+
+
 loadProduct()
 renderProduct()

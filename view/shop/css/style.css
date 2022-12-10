@@ -11,6 +11,9 @@ body {
 /* Menu bar element =============================================*/
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     background-color: #F6B302;
 }
 
@@ -21,16 +24,17 @@ body {
 
 
 .nav-left {
+
     display: flex;
+    align-items: center;
     margin-left: 15px;
-    margin-top: 10px;
     flex: 0.5;
     gap: 20px;
 }
 
 .pages {
     display: flex;
-    flex: 0.30;
+    height: 100%;
     gap: 20px;
 
 }
@@ -47,19 +51,29 @@ body {
     border-radius: 5px;
 }
 
+.nav-center {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.nav-center input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
 .nav-right {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    flex: 0.5;
-
 }
 
 button {
     border: none;
     margin-right: 15px;
     background-color: #fff;
-
     width: 80px;
     height: 40px;
     border-radius: 5px;
@@ -80,10 +94,10 @@ a {
     justify-content: center;
     align-items: flex-start;
     display: grid;
-    grid-template-columns:  150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-columns:  200px 200px 200px 200px 200px 200px ;
     margin-left: 15px;
     margin-right: 15px;
-    gap: 10px;
+    gap: 15px;
     height: 100%;
 }
 
@@ -92,19 +106,23 @@ a {
     flex-direction: column;
     align-items: center;
     background-color:#F6B302;
+    gap: 5px;
     border-radius: 5px;
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
     border-radius: 5px;
 }
 
 .card-botton {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 30px;
 }
 
 .cart img {

@@ -1,7 +1,8 @@
 const container = document.querySelector(".container");
 const dom_product_view = document.querySelector(".main");
 const products = JSON.parse(localStorage.getItem("products"));
-const dom_dailog_product = document.querySelector(".dailog-container");
+
+
 
 function renderProduct(){
     // Remove the card container and create a new one
@@ -12,7 +13,7 @@ function renderProduct(){
     dom_product_view.appendChild(dom_product_container);
 
     // 2 - For all products,  create a new div (class : item), and append it the container
-    for (let index = 0; index < products.length; index++) {
+    for (let index = 0; index <products.length; index++) {
         let productList = products[index];
 
         // list card of product //
@@ -73,7 +74,6 @@ function renderProduct(){
         cartText.textContent = "Add to cart";
         cart.appendChild(cartText);
         cardBotton.appendChild(cart);
-        console.log(card)
     }
 
 }
