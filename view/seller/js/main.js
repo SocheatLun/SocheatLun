@@ -5,7 +5,7 @@ const dialog = document.querySelector("#dialog");
 const cancel = document.querySelector("#cancel");
 const add = document.querySelector("#add");
 
-
+// LOST PRODUCT //
 let products = [
     {
         name: "Casio F91W-1",
@@ -187,12 +187,12 @@ function loadProduct() {
 
 // DISPLAY FUNCTION //
 function showDialog(element) {
-    showProduct.style.display = "block";
+    element.style.display = "block";
     document.querySelector("#add").textContent = "Add product"
 }
 
 function hideDialog(element) {
-    showProduct.style.display = "none";
+    element.style.display = "none";
 }
 
 function onAddProduct() {
@@ -337,7 +337,6 @@ function onCreate() {
     document.getElementById("image").value = ""
 
 }
-
 
 loadProduct()
 renderProduct()
